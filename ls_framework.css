@@ -50,11 +50,13 @@
 	border-bottom:1px solid #000000;
 }
 
-body:not(.lsjs-active) .lsfwk-hideWhenNoLsjs {
+body:not(.lsjs-active) .lsfwk-hideWhenNoLsjs,
+body:not(.lsjs-active) .hideWhenNoLsjs {
 	display:none !important;
 }
 
-body.lsjs-active .lsfwk-hideWhenLsjs {
+body.lsjs-active .lsfwk-hideWhenLsjs,
+body.lsjs-active .hideWhenLsjs {
 	display:none !important;
 }
 /*########## INFO NO JS ########## <-*/
